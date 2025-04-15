@@ -1,0 +1,28 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title-margin {
+    margin-top: 50px;  /* Add margin at the top of the title */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    box-sizing: border-box; /* Avoids padding/margin collapsing issues */
+  }
+  
+  .container {
+    max-width: 1200px; /* Restrict content width */
+    margin: auto;
+  }
+  
+  table {
+    margin-top: 20px;
+  }
